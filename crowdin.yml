@@ -1,3 +1,5 @@
 files:
   - source: /Natives/resources/en.lproj/Localizable.strings
     translation: /Natives/resources/%osx_code%/%original_file_name%
+- name: Upload a Build Artifact
+  uses: actions/upload-artifact@v7.0.2
